@@ -1,20 +1,20 @@
 ## model
 ### unet_segmentation_1.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 - batch_size: 16
 - epochs: 20
 - socre: NaN
 
 ### unet_segmentation_2.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip
 - batch_size: 16
 - epochs: 30
 - socre: 0.492031
 
 ### unet_segmentation_3.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 dark-side-train-data-part2.zip<br>
 dark-side-train-data-part3.zip<br>
@@ -25,7 +25,7 @@ dark-side-train-data-part5.zip<br>
 - socre: 0.599375
 
 ### unet_segmentation_4.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 dark-side-train-data-part2.zip<br>
 dark-side-train-data-part3.zip<br>
@@ -36,7 +36,7 @@ dark-side-train-data-part5.zip<br>
 - socre: 0.593503
 
 ### unet_segmentation_5.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 dark-side-train-data-part2.zip<br>
 dark-side-train-data-part3.zip<br>
@@ -52,7 +52,7 @@ dark-side-train-data-part10.zip<br>
 - socre: 0.638715
 
 ### unet_segmentation_6.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 dark-side-train-data-part2.zip<br>
 dark-side-train-data-part3.zip<br>
@@ -79,7 +79,7 @@ image = Image.fromarray(smoothed_image)
 ```
 
 ### unet_segmentation_7.pth
-- train: 
+- train: <br>
 dark-side-train-data-part1.zip<br>
 dark-side-train-data-part2.zip<br>
 dark-side-train-data-part3.zip<br>
