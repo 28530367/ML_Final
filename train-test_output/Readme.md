@@ -1,38 +1,38 @@
 ## model
 ### unet_segmentation_1.pth
-train: dark-side-train-data-part1.zip
-batch_size: 16
-epochs: 20
-socre: NaN
+- train: dark-side-train-data-part1.zip
+- batch_size: 16
+- epochs: 20
+- socre: NaN
 
 ### unet_segmentation_2.pth
-train: dark-side-train-data-part1.zip
-batch_size: 16
-epochs: 30
-socre: 0.492031
+- train: dark-side-train-data-part1.zip
+- batch_size: 16
+- epochs: 30
+- socre: 0.492031
 
 ### unet_segmentation_3.pth
-train: dark-side-train-data-part1.zip
+- train: dark-side-train-data-part1.zip
        dark-side-train-data-part2.zip
        dark-side-train-data-part3.zip
        dark-side-train-data-part4.zip
        dark-side-train-data-part5.zip
-batch_size: 32
-epochs: 30
-socre: 0.599375
+- batch_size: 32
+- epochs: 30
+- socre: 0.599375
 
 ### unet_segmentation_4.pth
-train: dark-side-train-data-part1.zip
+- train: dark-side-train-data-part1.zip
        dark-side-train-data-part2.zip
        dark-side-train-data-part3.zip
        dark-side-train-data-part4.zip
        dark-side-train-data-part5.zip
-batch_size: 16
-epochs: 30
-socre: 0.593503
+- batch_size: 16
+- epochs: 30
+- socre: 0.593503
 
 ### unet_segmentation_5.pth
-train: dark-side-train-data-part1.zip
+- train: dark-side-train-data-part1.zip
        dark-side-train-data-part2.zip
        dark-side-train-data-part3.zip
        dark-side-train-data-part4.zip
@@ -42,20 +42,20 @@ train: dark-side-train-data-part1.zip
        dark-side-train-data-part8.zip
        dark-side-train-data-part9.zip
        dark-side-train-data-part10.zip
-batch_size: 32
-epochs: 50
-socre: 0.638715
+- batch_size: 32
+- epochs: 50
+- socre: 0.638715
 
 ### unet_segmentation_6.pth
-train: dark-side-train-data-part1.zip
+- train: dark-side-train-data-part1.zip
        dark-side-train-data-part2.zip
        dark-side-train-data-part3.zip
        dark-side-train-data-part4.zip
        dark-side-train-data-part5.zip
-batch_size: 32
-epochs: 60
-socre: 0.567519
-remark: 輸入影像做對比度以及降噪處理
+- batch_size: 32
+- epochs: 60
+- socre: 0.567519
+- remark: 輸入影像做對比度以及降噪處理
 
 ```py
 # 讀取影像與mask
@@ -73,11 +73,12 @@ image = Image.fromarray(smoothed_image)
 ```
 
 ### unet_segmentation_7.pth
-train: dark-side-train-data-part1.zip
-       dark-side-train-data-part2.zip
-       dark-side-train-data-part3.zip
-       dark-side-train-data-part4.zip
-       dark-side-train-data-part5.zip
+train: 
+dark-side-train-data-part1.zip
+dark-side-train-data-part2.zip
+dark-side-train-data-part3.zip
+dark-side-train-data-part4.zip
+dark-side-train-data-part5.zip
 batch_size: 32
 epochs: 80
 socre: 0.599629
