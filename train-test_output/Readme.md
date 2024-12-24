@@ -90,6 +90,32 @@ dark-side-train-data-part5.zip<br>
 - socre: 0.599629
 - remark: 修改 DoubleConv 的第二個卷積層，3x3 改為 5x5
 
+### unet_segmentation_8.pth
+- train: <br>
+dark-side-train-data-part1.zip<br>
+dark-side-train-data-part2.zip<br>
+dark-side-train-data-part3.zip<br>
+dark-side-train-data-part4.zip<br>
+dark-side-train-data-part5.zip<br>
+dark-side-train-data-part6.zip<br>
+dark-side-train-data-part7.zip<br>
+dark-side-train-data-part8.zip<br>
+dark-side-train-data-part9.zip<br>
+dark-side-train-data-part10.zip<br>
+dark-side-train-data-part11.zip<br>
+dark-side-train-data-part12.zip<br>
+dark-side-train-data-part13.zip<br>
+dark-side-train-data-part14.zip<br>
+dark-side-train-data-part15.zip<br>
+dark-side-train-data-part16.zip<br>
+dark-side-train-data-part17.zip<br>
+dark-side-train-data-part18.zip<br>
+dark-side-train-data-part419.zip<br>
+dark-side-train-data-part20.zip<br>
+- batch_size: 32
+- epochs: 10
+- socre: 0.688......
+
 
 # Models
 ## model(1~6)
@@ -149,7 +175,7 @@ class UNetTwoPools(nn.Module):
         return out
 ```
 
-## model(7)
+## model(7~*)
 ```py
 ########################################
 # U-Net (只做兩次pooling)
